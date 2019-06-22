@@ -3,7 +3,7 @@
  de la primera columna d'acord a la següent formula: (a1+....+an )/n
  */
 
-var matriu = [1,1,3,1,3,
+var matriu = [1,1,3,1,3,		// matriu de 5x5
 			  2,2,0,2,2,
 			  4,4,4,4,0,
 			  7,4,7,7,7,
@@ -41,9 +41,12 @@ function mitjanaArit(matriu){
 			resultatMitjanaArit[4] = sumatori;
 		}
 	}
-	
+	resultatMitjanaArit[0] = resultatMitjanaArit[0]/25;
+	resultatMitjanaArit[1] = resultatMitjanaArit[1]/25;
+	resultatMitjanaArit[2] = resultatMitjanaArit[2]/25;
+	resultatMitjanaArit[3] = resultatMitjanaArit[3]/25;
+	resultatMitjanaArit[4] = resultatMitjanaArit[4]/25;
 	mitjanaArit = resultatMitjanaArit;
-	
 	
 	return mitjanaArit;
 }
