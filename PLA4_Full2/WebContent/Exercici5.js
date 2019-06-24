@@ -11,8 +11,8 @@ var llistaFinal = [1,1,1,1,1,
 				   9,9,9,9,9];
 var recorregutLlistes = 0;
 
-
+// Funció per sumar la diagonal de una llista convertida en matriu
 function sumaDiagonalLlistes (llistaFinal){
-			sumaDiagonalLlistes=llistaFinal[0]+llistaFinal[6]+llistaFinal[12]+llistaFinal[18]+llistaFinal[24]; 		
+			sumaDiagonalLlistes=llistaFinal[0]+llistaFinal[6]+llistaFinal[12]+llistaFinal[18]+llistaFinal[24]; 	//sumem les posicions de la diagonal de la "matriu"	
 	return sumaDiagonalLlistes;
 }
